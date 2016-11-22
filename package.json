@@ -1,0 +1,34 @@
+{
+  "name": "protounicorn",
+  "version": "0.0.1",
+  "description": "A magic JavaScript utility library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSWeekends/protoUnicorn.git"
+  },
+  "keywords": [
+    "utility"
+  ],
+  "author": "Open Source Weekends",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OSWeekends/protoUnicorn/issues"
+  },
+  "contributors": [
+    {
+      "name": "Ulises Gascón",
+      "url": "https://github.com/ulisesGascon"
+    }, {
+      "name": "Carlos Hernandez",
+      "url": "https://github.com/codingcarlos"
+    }, {
+      "name": "Jose Manuel Gallego Chamorro",
+      "url": "https://github.com/Josheriff"
+    } 
+  ],
+  "homepage": "https://github.com/OSWeekends/protoUnicorn#readme"
+}
