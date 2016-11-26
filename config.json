@@ -1,0 +1,19 @@
+{
+        "lib": [
+           "JSON",
+           "Map",
+           "Set",
+           "WeakMap",
+           "WeakSet",
+           "Array",
+           "String",
+           "RegExp",
+           "Number",
+           "Math",
+           "Date",
+           "Object",
+           "Function",
+           "Boolean",
+           "Symbol"        
+        ]
+    }
