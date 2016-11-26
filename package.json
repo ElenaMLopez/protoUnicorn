@@ -2,9 +2,9 @@
   "name": "protounicorn",
   "version": "0.0.1",
   "description": "A magic JavaScript utility library",
-  "main": "index.js",
+  "main": "protoUnicorn.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -22,13 +22,22 @@
     {
       "name": "Ulises Gascón",
       "url": "https://github.com/ulisesGascon"
-    }, {
+    },
+    {
       "name": "Carlos Hernandez",
       "url": "https://github.com/codingcarlos"
-    }, {
+    },
+    {
       "name": "Jose Manuel Gallego Chamorro",
       "url": "https://github.com/Josheriff"
-    } 
+    }
   ],
-  "homepage": "https://github.com/OSWeekends/protoUnicorn#readme"
+  "homepage": "https://github.com/OSWeekends/protoUnicorn#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.5.0",
+    "gulp-istanbul": "1.1.1",
+    "gulp-mocha": "3.0.1",
+    "mocha": "3.1.2"
+  }
 }
