@@ -17,3 +17,33 @@ Or you can contact us directly...
 - [Ulises Gascón](https://github.com/ulisesGascon)
 - [Carlos Hernandez](https://github.com/codingcarlos)
 - [Jose Manuel Gallego]("https://github.com/Josheriff)
+
+## Documentation
+
+### Gulp Tasks
+
+- **lint** Linter
+- **test** Unit testing
+- **jsdoc** JSDoc creation/update
+
+### Use example
+
+- Option 1: Add it as a prototype with all the features
+```javascript
+require("./protoUnicorn")();
+```
+
+- Option 2: Add only few features
+```javascript
+var protoUnicorn = require("./protoUnicorn")({
+    allow: ["Date", "Math", "Object","Array" ]
+});
+```
+
+
+- Option 3: Add all features except some items
+```javascript
+var protoUnicorn = require("./protoUnicorn")({
+    notAllow: ["Math", "Date"]
+})
+```
